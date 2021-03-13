@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    protected static List<String> results;
+    public static List<String> results;
 
     public static void main(String... args) throws MowerException, IOException {
         if (args.length == 1) {
