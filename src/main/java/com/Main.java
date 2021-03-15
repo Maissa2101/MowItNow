@@ -26,6 +26,13 @@ public class Main {
         }
     }
 
+    /**
+     * Lecture et validation du fichier et lancement du traitement de la tondeuse
+     * @param file
+     * @return la liste des positions des tondeuses
+     * @throws MowerException
+     * @throws FileNotFoundException
+     */
     private List<String> launchMower(File file) throws MowerException, FileNotFoundException {
 		if (!file.isFile()) {
             throw new MowerException(Constants.ERROR_UNFOUND_FILE);

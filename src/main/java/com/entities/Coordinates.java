@@ -11,6 +11,11 @@ public class Coordinates {
         this.y = y;
     }
 
+    /**
+     * Vérifie si les coordonnées sont à l'intérieur de la pelouse (ne dépassent pas les coordonnées max de la pelouse)
+     * @param coordinates
+     * @return true si les coordonnées sont à l'intérieur de la pelouse, false sinon
+     */
     public boolean isInsideLawn(Coordinates coordinates) {
         return coordinates.getX() >= 0
                 && coordinates.getY() >= 0

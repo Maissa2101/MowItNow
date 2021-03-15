@@ -1,6 +1,5 @@
 package com.handlers;
 
-
 import com.entities.Coordinates;
 import com.entities.Instructions;
 import com.entities.Mower;
@@ -34,6 +33,10 @@ public class MowerHandler {
         return mower;
     }
 
+    /**
+     * Execution du traitement de la tondeuse selon les instructions donnés
+     * @throws MowerException
+     */
     public void executeInstructions() throws MowerException {
         for(Instructions instruction : instructionsList){
             InstructionsHandler.executerInstruction(getMower(),

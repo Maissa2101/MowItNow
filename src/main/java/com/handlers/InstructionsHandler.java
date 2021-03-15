@@ -5,6 +5,14 @@ import com.exceptions.MowerException;
 
 public class InstructionsHandler {
 
+    /**
+     * Exécuter l'instruction "avance" de la tondeuse
+     * @param mower
+     * @param coordinatesMax
+     * @return les nouvelles coordonnées de la tondeuse après l'instruction "avance" si celles-ci ne dépassent pas la pelouse,
+     * sinon les anciennes coordonnées de la tondeuse
+     * @throws MowerException
+     */
     public static Coordinates moveForward(Mower mower, Coordinates coordinatesMax) throws MowerException {
         Coordinates newCoordinates;
         int x, y;
@@ -38,6 +46,12 @@ public class InstructionsHandler {
         }
     }
 
+    /**
+     * Pivoter la tondeuse à droite
+     * @param orientation
+     * @return la nouvelle orientation de la tondeuse
+     * @throws MowerException
+     */
     public static Orientation swingRight(Orientation orientation) throws MowerException {
         Orientation newOrientation;
         switch (orientation){
@@ -59,6 +73,12 @@ public class InstructionsHandler {
         return newOrientation;
     }
 
+    /**
+     * Pivoter la tondeuse à gauche
+     * @param orientation
+     * @return la nouvelle orientation de la tondeuse
+     * @throws MowerException
+     */
     public static Orientation swingLeft(Orientation orientation) throws MowerException {
         Orientation newOrientation;
         switch (orientation){
@@ -80,6 +100,13 @@ public class InstructionsHandler {
         return newOrientation;
     }
 
+    /**
+     * Exécuter le traitement de la tondeuse selon l'instruction donnée
+     * @param mower
+     * @param instruction
+     * @param coordinatesMax
+     * @throws MowerException
+     */
     public static void executerInstruction(Mower mower, Instructions instruction, Coordinates coordinatesMax) throws MowerException {
         switch (instruction){
             case AVANCE :
