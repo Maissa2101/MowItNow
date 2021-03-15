@@ -1,9 +1,10 @@
 package com.handlers;
 
-import com.entities.Instructions;
-import com.exceptions.MowerException;
+
 import com.entities.Coordinates;
+import com.entities.Instructions;
 import com.entities.Mower;
+import com.exceptions.MowerException;
 
 import java.util.List;
 

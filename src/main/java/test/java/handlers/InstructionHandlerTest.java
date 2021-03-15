@@ -1,4 +1,4 @@
-package test.handlers;
+package test.java.handlers;
 
 import com.entities.Coordinates;
 import com.entities.Instructions;

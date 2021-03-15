@@ -1,5 +1,6 @@
 package com.entities;
 
+
 import java.util.Objects;
 
 public class Mower {

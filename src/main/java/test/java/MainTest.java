@@ -1,4 +1,4 @@
-package test;
+package test.java;
 
 import com.Main;
 import com.entities.Constants;
@@ -12,9 +12,10 @@ import java.io.IOException;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+
 public class MainTest {
 
-    final String FILE_PATH = "./src/resources/";
+    final String FILE_PATH = "./src/main/java/test/resources/";
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();

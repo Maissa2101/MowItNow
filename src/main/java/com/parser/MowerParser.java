@@ -1,7 +1,6 @@
 package com.parser;
 
-import com.entities.Instructions;
-import com.entities.Orientation;
+import com.entities.*;
 
 public class MowerParser {
 

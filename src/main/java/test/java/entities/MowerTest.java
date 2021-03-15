@@ -1,10 +1,12 @@
-package test.entities;
+package test.java.entities;
 
 import com.entities.Coordinates;
 import com.entities.Mower;
 import com.entities.Orientation;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 
 public class MowerTest {
 

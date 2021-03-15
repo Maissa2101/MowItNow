@@ -1,4 +1,4 @@
-package test.handlers;
+package test.java.handlers;
 
 import com.entities.Coordinates;
 import com.entities.Instructions;
@@ -7,7 +7,7 @@ import com.handlers.LineFormatter;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertNull;
+
 
 public class LineFormatterTest {
 

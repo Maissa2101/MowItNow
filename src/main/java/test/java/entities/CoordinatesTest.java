@@ -1,4 +1,4 @@
-package test.entities;
+package test.java.entities;
 
 import static org.junit.Assert.*;
 
