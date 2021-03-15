@@ -1,4 +1,4 @@
-package test.java.entities;
+package entities;
 
 import com.entities.Coordinates;
 import com.entities.Mower;

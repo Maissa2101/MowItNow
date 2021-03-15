@@ -1,5 +1,3 @@
-package test.java;
-
 import com.Main;
 import com.entities.Constants;
 import com.exceptions.MowerException;
@@ -15,7 +13,7 @@ import static org.junit.Assert.assertTrue;
 
 public class MainTest {
 
-    final String FILE_PATH = "./src/main/java/test/resources/";
+    final String FILE_PATH = "./src/test/resources/";
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();

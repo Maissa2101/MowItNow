@@ -1,4 +1,4 @@
-package test.java.parser;
+package parser;
 
 import com.parser.MowerParser;
 import org.junit.Test;
